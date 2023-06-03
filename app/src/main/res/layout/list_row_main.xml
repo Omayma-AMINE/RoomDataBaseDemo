@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@color/colorTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="241dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_pop"
+                android:layout_width="241dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_cap"
+                android:layout_width="241dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/bt_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"></ImageView>
+
+        <ImageView
+            android:id="@+id/bt_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"></ImageView>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
